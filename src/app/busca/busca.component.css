@@ -1,0 +1,71 @@
+.busca {
+  text-align: center;
+  margin: 15px 0 35px;
+}
+
+.tabela-passagem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabela-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 900px;
+  background-color: rgb(42, 183, 254);
+  padding: 20px 40px;
+  border-radius: 5px;
+  margin: 5px 0;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.origem-container {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.icone-flecha {
+  text-align: left;
+  position: relative;
+  left: -40px;
+}
+
+.origem-info {
+  font-size: 30px;
+  margin: 5px 0;
+}
+
+.origem-titulo {
+  text-align: left;
+}
+
+.ida-titulo {
+  text-transform: uppercase;
+  width: 50px;
+  text-align: left;
+}
+
+.ida-info {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.volta-titulo {
+  text-align: left;
+  width: 50px;
+  text-transform: uppercase;
+}
+
+.volta-info {
+  font-weight: 600;
+}
+
+.preco {
+  font-weight: 800;
+  font-size: 26px;
+}
